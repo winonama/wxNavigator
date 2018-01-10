@@ -1,0 +1,4 @@
+<!--pages/evaluate/evaluate.wxml--> 
+<import src="../bar/bar.wxml" />  
+<template is="tabBar" data="{{tabBar: tabBar}}" />
+<view>这是首页</view>

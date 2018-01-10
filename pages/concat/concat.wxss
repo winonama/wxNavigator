@@ -1,0 +1,2 @@
+/* pages/concat/concat.wxss */
+@import"../bar/bar.wxss";

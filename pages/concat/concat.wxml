@@ -1,0 +1,4 @@
+<!--pages/concat/concat.wxml-->
+<import src="../bar/bar.wxml" />  
+<template is="tabBar" data="{{tabBar: tabBar}}" />
+<view>这是联系我们</view>
