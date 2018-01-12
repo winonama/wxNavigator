@@ -3,7 +3,7 @@
   <view class="tab_bar">  
   <view class="tab_list">  
     <view wx:for="{{tabBar.list}}" wx:key="pagePath" >
-    <navigator url="{{item.pagePath}}" open-type="redirect" class="tab_list_item">  
+    <navigator url="{{item.pagePath}}" open-type="reLaunch" class="tab_list_item">  
       <view>
         <image class="tab_img" src="{{item.selectedIconPath}}" wx:if="{{item.active}}"></image>  
         <image class="tab_img" src="{{item.iconPath}}" wx:if="{{!item.active}}"></image> 
